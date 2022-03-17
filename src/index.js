@@ -4,6 +4,7 @@ import App from "./App";
 import ScrollSnapDemo from "./ScrollSnapDemo";
 import CalculationDemo from "./CalculationDemo";
 import MasonryDemo from "./MasonryDemo";
+import AnimationsDemo from "./AnimationsDemo";
 
 const rootElement = document.getElementById("root");
 render(
@@ -13,6 +14,7 @@ render(
       <Route path="ScrollSnapDemo" element={<ScrollSnapDemo />} />
       <Route path="CalculationDemo" element={<CalculationDemo />} />
       <Route path="MasonryDemo" element={<MasonryDemo />} />
+      <Route path="AnimationsDemo" element={<AnimationsDemo />} />
     </Routes>
   </BrowserRouter>,
   rootElement

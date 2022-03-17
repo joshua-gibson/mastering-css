@@ -8,6 +8,7 @@ const NavBar = ({ classes }) => {
         <Link to="/ScrollSnapDemo">ScrollSnapDemo</Link> |{" "}
         <Link to="/CalculationDemo">CalculationDemo</Link> |{" "}
         <Link to="/MasonryDemo">MasonryDemo</Link> |{" "}
+        <Link to="/AnimationsDemo">AnimationsDemo</Link> |{" "}
       </nav>
     </div>
   );
