@@ -1,14 +1,9 @@
 import { Link } from "react-router-dom";
 
-const NavBar = () => {
+const NavBar = ({ classes }) => {
   return (
-    <div>
-      <nav
-        style={{
-          borderBottom: "solid 1px",
-          paddingBottom: "1rem",
-        }}
-      >
+    <div className={`${classes}`}>
+      <nav>
         <Link to="/">Home</Link> |{" "}
         <Link to="/ScrollSnapDemo">ScrollSnapDemo</Link> |{" "}
       </nav>

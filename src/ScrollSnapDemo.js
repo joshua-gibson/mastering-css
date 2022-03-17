@@ -11,11 +11,11 @@ import {
   text7,
 } from "./components/text";
 
-function ScrollSnapDemo() {
+const ScrollSnapDemo = () => {
   return (
     <div>
       <h1>Mastering CSS Training</h1>
-      <NavBar />
+      <NavBar classes="naviBar" />
       <ContentContainer classes="container">
         <ContentBox
           classes="contentBox"
@@ -55,6 +55,6 @@ function ScrollSnapDemo() {
       </ContentContainer>
     </div>
   );
-}
+};
 
 export default ScrollSnapDemo;

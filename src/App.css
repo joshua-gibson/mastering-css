@@ -1,5 +1,5 @@
 body {
-  height: 97vh;
+  overflow: hidden;
   background-color: rgb(255, 255, 255);
 }
 
@@ -9,36 +9,47 @@ h1 {
   font-size: 35px;
   text-align: center;
 }
-h2 {
-  color: white;
-  font-size: 35px;
-  text-align: center;
-}
 
 p {
   font-family: verdana;
-  color: white;
   font-size: 25px;
 }
 
+.naviBar {
+  font-family: verdana;
+  border-bottom: "solid 1px";
+  padding-bottom: "1rem";
+}
+
 .container {
-  height: 88vh;
+  height: 86vh;
   overflow: scroll;
   scrollbar-width: none; /* For Firefox */
   scroll-snap-points-y: repeat(100vh);
   scroll-snap-type: y mandatory;
 
   margin: 25px 50px 75px 50px;
-  display: flex;
-  flex-direction: column;
+  display: block;
 }
 .container::-webkit-scrollbar {
   width: 0px; /* For Chrome, Safari, and Opera */
 }
+
 .contentBox {
-  margin: 5px 10px 5px 10px;
+  height: 80vh;
+  margin: 5px 10px 50px 10px;
   padding: 5px 10px 5px 10px;
   scroll-snap-align: start;
   border-style: solid;
-  background-color: rgb(22, 150, 182);
+  background-color: rgb(86, 180, 204);
+}
+.contentBox > p {
+  font-family: verdana;
+  color: white;
+  font-size: 25px;
+}
+.contentBox > h2 {
+  color: white;
+  font-size: 35px;
+  text-align: center;
 }
