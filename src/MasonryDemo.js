@@ -16,39 +16,109 @@ const MasonryDemo = () => {
     <div>
       <h1>Mastering CSS Training</h1>
       <NavBar classes="naviBar" />
-      <ContentContainer classes="containerB">
+      <ContentContainer classes="containerC">
         <ContentBox
-          classes="contentBoxB"
+          classes="contentBoxC"
           header="What is the Matrix?"
           body={text1}
         />
         <ContentBox
-          classes="contentBoxB"
+          classes="contentBoxC"
           header="I can only show you the door."
           body={text2}
         />
         <ContentBox
-          classes="contentBoxB"
+          classes="contentBoxC"
           header="You take the blue pill."
           body={text3}
         />
         <ContentBox
-          classes="contentBoxB"
+          classes="contentBoxC"
           header="You take the red pill."
           body={text4}
         />
         <ContentBox
-          classes="contentBoxB"
+          classes="contentBoxC"
           header="I know kung fu."
           body={text5}
         />
         <ContentBox
-          classes="contentBoxB"
+          classes="contentBoxC"
           header="Choice is an illusion."
           body={text6}
         />
         <ContentBox
-          classes="contentBoxB"
+          classes="contentBoxC"
+          header="The body cannot live without the mind."
+          body={text7}
+        />
+        <ContentBox
+          classes="contentBoxC"
+          header="What is the Matrix?"
+          body={text1}
+        />
+        <ContentBox
+          classes="contentBoxC"
+          header="I can only show you the door."
+          body={text2}
+        />
+        <ContentBox
+          classes="contentBoxC"
+          header="You take the blue pill."
+          body={text3}
+        />
+        <ContentBox
+          classes="contentBoxC"
+          header="You take the red pill."
+          body={text4}
+        />
+        <ContentBox
+          classes="contentBoxC"
+          header="I know kung fu."
+          body={text5}
+        />
+        <ContentBox
+          classes="contentBoxC"
+          header="Choice is an illusion."
+          body={text6}
+        />
+        <ContentBox
+          classes="contentBoxC"
+          header="The body cannot live without the mind."
+          body={text7}
+        />
+        <ContentBox
+          classes="contentBoxC"
+          header="What is the Matrix?"
+          body={text1}
+        />
+        <ContentBox
+          classes="contentBoxC"
+          header="I can only show you the door."
+          body={text2}
+        />
+        <ContentBox
+          classes="contentBoxC"
+          header="You take the blue pill."
+          body={text3}
+        />
+        <ContentBox
+          classes="contentBoxC"
+          header="You take the red pill."
+          body={text4}
+        />
+        <ContentBox
+          classes="contentBoxC"
+          header="I know kung fu."
+          body={text5}
+        />
+        <ContentBox
+          classes="contentBoxC"
+          header="Choice is an illusion."
+          body={text6}
+        />
+        <ContentBox
+          classes="contentBoxC"
           header="The body cannot live without the mind."
           body={text7}
         />

@@ -1,5 +1,4 @@
 body {
-  overflow: hidden;
   background-color: rgb(255, 255, 255);
 }
 
@@ -85,5 +84,33 @@ p {
 .contentBoxB > h2 {
   color: white;
   font-size: 35px;
+  text-align: center;
+}
+
+.containerC {
+  height: calc(100vh - 10rem);
+  width: calc(100% - 6rem);
+  margin: 25px 50px 75px 50px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-rows: masonry;
+}
+
+.contentBoxC {
+  margin: 5px 5px 50px 5px;
+  padding: 5px 5px 5px 5px;
+  block-size: min-content;
+  border-style: solid;
+  background-color: rgb(86, 180, 204);
+}
+.contentBoxC > p {
+  font-family: verdana;
+  color: white;
+  font-size: 8px;
+}
+.contentBoxC > h2 {
+  color: white;
+  font-size: 25px;
   text-align: center;
 }
