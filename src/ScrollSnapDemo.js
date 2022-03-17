@@ -11,7 +11,7 @@ import {
   text7,
 } from "./components/text";
 
-function App() {
+function ScrollSnapDemo() {
   return (
     <div>
       <ContentContainer>
@@ -30,4 +30,4 @@ function App() {
   );
 }
 
-export default App;
+export default ScrollSnapDemo;
