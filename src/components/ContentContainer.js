@@ -3,7 +3,7 @@ import React from "react";
 const ContentContainer = ({ children }) => {
   return (
     <>
-      <div>{children}</div>
+      <div className="container">{children}</div>
     </>
   );
 };
