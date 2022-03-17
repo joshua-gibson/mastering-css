@@ -1,4 +1,3 @@
-import "./App.css";
 import ContentBox from "./components/ContentBox";
 import ContentContainer from "./components/ContentContainer";
 import {
