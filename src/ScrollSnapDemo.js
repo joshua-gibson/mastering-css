@@ -1,4 +1,5 @@
 import ContentBox from "./components/ContentBox";
+import NavBar from "./components/NavBar";
 import ContentContainer from "./components/ContentContainer";
 import {
   text1,
@@ -13,6 +14,8 @@ import {
 function ScrollSnapDemo() {
   return (
     <div>
+      <h1>Mastering CSS Training</h1>
+      <NavBar />
       <ContentContainer>
         <ContentBox header="What is the Matrix?" body={text1} />
         <ContentBox header="I can only show you the door." body={text2} />
