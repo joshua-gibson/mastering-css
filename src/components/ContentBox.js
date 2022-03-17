@@ -1,9 +1,9 @@
 import React from "react";
 
-const ContentBox = ({ header, body }) => {
+const ContentBox = ({ classes, header, body }) => {
   return (
     <>
-      <div className="contentBox">
+      <div className={`${classes}`}>
         <h2>{header}</h2>
         <p>{body}</p>
       </div>
