@@ -36,7 +36,7 @@ p {
 }
 
 .contentBox {
-  height: 80vh;
+  height: 98%;
   margin: 5px 10px 50px 10px;
   padding: 5px 10px 5px 10px;
   scroll-snap-align: start;
@@ -49,6 +49,40 @@ p {
   font-size: 25px;
 }
 .contentBox > h2 {
+  color: white;
+  font-size: 35px;
+  text-align: center;
+}
+
+.containerB {
+  height: calc(100vh - 10rem);
+  width: calc(100% - 6rem);
+  overflow: scroll;
+  scrollbar-width: none; /* For Firefox */
+  scroll-snap-points-y: repeat(100vh);
+  scroll-snap-type: y mandatory;
+
+  margin: 25px 50px 75px 50px;
+  display: block;
+}
+.containerB::-webkit-scrollbar {
+  width: 0px; /* For Chrome, Safari, and Opera */
+}
+
+.contentBoxB {
+  height: calc(100% - 1rem);
+  margin: 5px 10px 50px 10px;
+  padding: 5px 10px 5px 10px;
+  scroll-snap-align: start;
+  border-style: solid;
+  background-color: rgb(86, 180, 204);
+}
+.contentBoxB > p {
+  font-family: verdana;
+  color: white;
+  font-size: 25px;
+}
+.contentBoxB > h2 {
   color: white;
   font-size: 35px;
   text-align: center;

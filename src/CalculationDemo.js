@@ -7,8 +7,8 @@ const CalculationDemo = () => {
     <div>
       <h1>Mastering CSS Training</h1>
       <NavBar classes="naviBar" />
-      <ContentContainer classes="container">
-        <ContentBox classes="contentBox" header="Hi!" body="There!" />
+      <ContentContainer classes="containerB">
+        <ContentBox classes="contentBoxB" header="Hi!" body="There!" />
       </ContentContainer>
     </div>
   );

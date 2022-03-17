@@ -16,39 +16,39 @@ const ScrollSnapDemo = () => {
     <div>
       <h1>Mastering CSS Training</h1>
       <NavBar classes="naviBar" />
-      <ContentContainer classes="container">
+      <ContentContainer classes="containerB">
         <ContentBox
-          classes="contentBox"
+          classes="contentBoxB"
           header="What is the Matrix?"
           body={text1}
         />
         <ContentBox
-          classes="contentBox"
+          classes="contentBoxB"
           header="I can only show you the door."
           body={text2}
         />
         <ContentBox
-          classes="contentBox"
+          classes="contentBoxB"
           header="You take the blue pill."
           body={text3}
         />
         <ContentBox
-          classes="contentBox"
+          classes="contentBoxB"
           header="You take the red pill."
           body={text4}
         />
         <ContentBox
-          classes="contentBox"
+          classes="contentBoxB"
           header="I know kung fu."
           body={text5}
         />
         <ContentBox
-          classes="contentBox"
+          classes="contentBoxB"
           header="Choice is an illusion."
           body={text6}
         />
         <ContentBox
-          classes="contentBox"
+          classes="contentBoxB"
           header="The body cannot live without the mind."
           body={text7}
         />
