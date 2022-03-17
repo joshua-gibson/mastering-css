@@ -1,10 +1,11 @@
 import React from "react";
 
-const ContentBox = () => {
+const ContentBox = ({ header, body }) => {
   return (
     <>
       <div>
-        <p>I am a box</p>
+        <p>{header}</p>
+        <p>{body}</p>
       </div>
     </>
   );
