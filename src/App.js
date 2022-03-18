@@ -1,5 +1,6 @@
 import "./App.css";
 import "./animations.css";
+import "./svgAnimations.css";
 import NavBar from "./components/NavBar";
 
 export default function App() {
