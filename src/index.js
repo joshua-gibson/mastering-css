@@ -5,6 +5,7 @@ import ScrollSnapDemo from "./ScrollSnapDemo";
 import CalculationDemo from "./CalculationDemo";
 import MasonryDemo from "./MasonryDemo";
 import AnimationsDemo from "./AnimationsDemo";
+import SVGDemo from "./SVGDemo";
 
 const rootElement = document.getElementById("root");
 render(
@@ -15,6 +16,7 @@ render(
       <Route path="CalculationDemo" element={<CalculationDemo />} />
       <Route path="MasonryDemo" element={<MasonryDemo />} />
       <Route path="AnimationsDemo" element={<AnimationsDemo />} />
+      <Route path="SVGDemo" element={<SVGDemo />} />
     </Routes>
   </BrowserRouter>,
   rootElement

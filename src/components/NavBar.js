@@ -9,6 +9,7 @@ const NavBar = ({ classes }) => {
         <Link to="/CalculationDemo">CalculationDemo</Link> |{" "}
         <Link to="/MasonryDemo">MasonryDemo</Link> |{" "}
         <Link to="/AnimationsDemo">AnimationsDemo</Link> |{" "}
+        <Link to="/SVGDemo">SVGDemo</Link> |{" "}
       </nav>
     </div>
   );
