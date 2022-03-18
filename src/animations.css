@@ -1,3 +1,8 @@
+.animationContainer {
+  width: calc(100% - 6rem);
+  margin: 25px 50px 75px 50px;
+}
+
 .fakeButton {
   font-family: verdana;
   height: 50px;
@@ -18,4 +23,9 @@
   background: rgb(151, 73, 187);
   color: rgb(38, 43, 44);
   border-radius: 20px;
+}
+
+.rightArrowImage {
+  height: 50px;
+  width: 50px;
 }
