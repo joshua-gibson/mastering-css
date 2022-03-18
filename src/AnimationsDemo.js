@@ -15,6 +15,9 @@ const AnimationsDemo = () => {
           imageName="right-arrow-icon.png"
         />
       </ContentContainer>
+      <ContentContainer classes="typingContainer">
+        <h1 className="typeDemo">Typing is fun!</h1>
+      </ContentContainer>
     </div>
   );
 };
